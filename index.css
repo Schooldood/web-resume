@@ -1,0 +1,58 @@
+.center{
+    text-align: center;
+}
+
+/*Asked ChatGPT for help in constructing this
+code is not a one to one copy though.
+*/
+hr {
+    background-color: darkslategrey;
+    height: 2px;
+    border: none;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+li {
+    color: navy;
+}
+
+body {
+    background-image: linear-gradient(to left, lightblue, rgb(213, 233, 241), lightblue);
+}
+
+.color-area{
+    background-image: linear-gradient(to bottom, #364FAE, #162972);
+    /*background-color: rbga(54,79,174);*/
+    padding: 10px;
+}
+
+.blue-color-text{
+    color: lightblue;
+}
+
+.information {
+    color: lightskyblue;
+    background-image: linear-gradient(to right, lightblue, #162972, lightblue);
+}
+
+.navy-color-text {
+    color: white;
+    background-image: linear-gradient(to left, lightblue, navy);
+}
+
+/*This code was built from ChatGPT questions*/
+.print-to-paper {
+    background-color: #364FAE;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.print-to-paper:hover {
+    background-color: navy;
+}
+
