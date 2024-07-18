@@ -21,6 +21,19 @@ body {
     background-image: linear-gradient(to left, lightblue, rgb(213, 233, 241), lightblue);
 }
 
+
+.goldGradi {
+    background-color: goldenrod;
+    background-image: linear-gradient(to right, goldenrod, gold, yellow, gold, goldenrod);
+    background-size: 100%;
+    background-repeat: none;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
 .color-area{
     background-image: linear-gradient(to bottom, #364FAE, #162972);
     /*background-color: rbga(54,79,174);*/
@@ -28,12 +41,16 @@ body {
 }
 
 .blue-color-text{
-    color: lightblue;
+    color: rgb(206, 226, 233);
 }
 
 .information {
-    color: lightskyblue;
+    color: rgb(206, 226, 233);
     background-image: linear-gradient(to right, lightblue, #162972, lightblue);
+}
+
+.info_text{
+    margin-left: 100px;
 }
 
 .navy-color-text {
